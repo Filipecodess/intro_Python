@@ -256,6 +256,34 @@
 #     print("Bem-vindo, você é um guerreiro de Cybertron")
 # else:
 #     print(f"Bom dia, {nome}")
-# 4. 
+# 4. Faça um programa que solicite ao usuário sua idade, depois disso, 
+# exiba a classificação etária de acordo com as faixas de valores:
+
+# idade = int(input(" Qual a sua idade: "))
+# print(f"A minha idade é de {idade}")
+# if 0 <= idade <= 11:
+#     print("Você é criança!")
+# elif 12 <= idade <= 17:
+#     print("Você é adolescente!")
+# elif 18 <= idade <= 24:
+#     print("Você é jovem!")
+# elif 25 <= idade <= 40:
+#     print("Você é adulto!")
+# elif 41 <= idade <= 59:
+#     print("Você está na meia-idade!")
+# else:
+#     print("Você é idoso!")
+# 5. Faça um algoritmo que solicite o ano que o usuário nasceu, 
+# depois disso, faça o programa descrever se o usuário fará ou já fez 18 anos neste ano.
+# anoNasc = int(input("Qual o ano do seu nascimento? "))
+# anoAtual = 2025
+# idade = 2025 - anoNasc
+# anoIdade = anoNasc + 18
+# if idade == 18:
+#     print("Voçê tem 18 anos!")
+# elif idade > 18:
+#     print (f"Você fez 18 anos no ano de {anoIdade}")
+# else:
+#     print("Você ainda irá fazer 18 anos!")
 
 
