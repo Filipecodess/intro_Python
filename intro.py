@@ -190,6 +190,26 @@
 #     totalgeral = totalgeral + total
 #     i+=1
 # print (f"foram vendidos R${totalgeral} de açai em {i-1}")
+#========================================ESTRUTURA FOR======================================================
+# Sequencia de fibonacci
+# n = 20
+# n1 =0
+# n2 = 1
+# for x in range(n):
+#     x = n1 + n2
+#     print(x)
+#     n1 = n2
+#     n2 = x
+# for x in range(20):
+#     print(x)
+
+# for x in range(1,20,2):
+#     print(x)
+# ==================================================================================================
+# lista = [10,20,80,50,40,125,60,70,90,52]
+# for posicaopar, valor in enumerate (lista, start=1):
+#     if valor % 2 ==0:
+#         print(f"posição {posicaopar} da lista é par: {valor}")
 #=========================Condicional composta================================
 # print("Temos as aulas:")
 # print("Aula 1 com 15% de desconto ")
