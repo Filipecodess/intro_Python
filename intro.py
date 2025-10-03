@@ -1,3 +1,4 @@
+# print("Hello world!")
 # palavra = "olá"
 # nome =" Fiipe"
 # idade = 22
@@ -104,7 +105,7 @@
 #     print("número ímpar")
 
 # print("fim do programa")
-
+# ========================================================================
 # a = float(input("digite um número: "))
 # b = float(input("digite outro número: "))
 # if a > b:
@@ -128,7 +129,7 @@
 #     print("Vamos para praia")
 # else:
 #     print("vamos assistir netflix")
-
+#==================================================================================================
 # clima = str(input("qual o climinha de hoje? [sol/chuva] "))
 # if clima == "sol":
 #     din = str(input("tem dinheiro? [sim/não] "))
@@ -149,8 +150,6 @@
 #     print ("Você é maior de idade")
 # else:
 #     print ("Você é de menor idade")
-
-
 # =================================== ESTRUTUTA DE REPETIÇÃO ===============================================================
 # soma = 1
 # x = int(input("Digite um número: ")) #entrada para start do processo
@@ -191,13 +190,6 @@
 #     totalgeral = totalgeral + total
 #     i+=1
 # print (f"foram vendidos R${totalgeral} de açai em {i-1}")
-
-
-
-
-
-
-
 #=========================Condicional composta================================
 # print("Temos as aulas:")
 # print("Aula 1 com 15% de desconto ")
