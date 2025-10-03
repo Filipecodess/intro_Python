@@ -150,13 +150,53 @@
 # else:
 #     print ("Você é de menor idade")
 
-# =========== ESTRUTUTA DE REPETIÇÃO ====================
+
+# =================================== ESTRUTUTA DE REPETIÇÃO ===============================================================
 # soma = 1
 # x = int(input("Digite um número: ")) #entrada para start do processo
 # while x != 0:
 #     x = int(input("Digite um número: "))
 #     soma += x
 #     print (soma)
+# i = 0
+# while i <= 10:
+#     print (i)
+#     i+=1
+
+# i = 1
+# while i <= 10:
+#     if  i % 2 == 0:
+#         print(f"{i} - par")     
+#     else:
+#         print(f"{i} - impar")
+#     i += 1
+
+# i = 100
+# while i <= 200:
+#     if  i % 2 == 0:
+#         print(f"{i} - par")
+#     i += 1
+
+# x = 1
+# while x <= 100:
+#     print(x)
+#     x += 1
+# print("fim do programa!!")
+# totalgeral = 0
+# i = 1
+# while i <= 3:
+#     qtd_acai = int(input(f"informe a quantidade de açaí vendidos no dia {i}: "))
+#     total = qtd_acai *3
+#     print(f"foram vendidos R$ {total:.2f} de açai.")
+#     totalgeral = totalgeral + total
+#     i+=1
+# print (f"foram vendidos R${totalgeral} de açai em {i-1}")
+
+
+
+
+
+
 
 #=========================Condicional composta================================
 # print("Temos as aulas:")
@@ -190,6 +230,7 @@
 #     print("Você é maior de idade")
 # else:
 #     print ("Você é de menor idade")
+
 #====================================================IMC=================================================================
 # altura = float(input("Digite sua altura: "))
 # peso = float(input("digite seu peso: "))
@@ -210,6 +251,7 @@
 #     print ("obesidade II(severa)")
 # else:
 #     print("obesidade III (mótbida)")
+
 #==================================================== EXERCICIO 1 =====================================================================
 # 1. Faça um programa que exiba seu nome na tela
 # print("Filipe Gabriel da Silva Araújo")
@@ -231,6 +273,7 @@
 # metros = int(input("Digite um número: "))
 # centimetro = metros * 100
 # print ("A conversão de metros para centimetro é:", centimetro, "cm" )
+
 # ========================================================EXERCICIO 2====================================================================
 # 1. Faça um programa que recebendo um valor inteiro, informe se o número é positivo, negativo ou neutro.
 # num = int(input("Digite um número "))
@@ -286,4 +329,56 @@
 # else:
 #     print("Você ainda irá fazer 18 anos!")
 
-
+# ==============================DESAFIO 01===============================================================
+# Realize a refatoração do código abaixo, alterando a estrutura de 
+# “def case” para o uso o “IF/ELIF”. Outras alterações no código poderão ser realizadas também:
+# print("1-ANTARTICA R$6.00; 2-SKOL R$6.50")
+# print("3-BRAHMA R$8.20; 4-SOL R$8.25")
+# print("5-NORTENHA R$16.80; 6-PROIBIDA R$4.80")
+# print("7-DEVASSA R$5.90; 8-HEINEKEN R$9.00")
+# cerveja = int(input("digite o número para pegar a sua cerveja: "))
+# if cerveja ==9:
+#     print("número inválido")
+# else:
+#     print("qual a quantidade?")
+#     qtd = int(input("Digite aqui a quantidade: "))
+#     if cerveja == 1:
+#         valor_cerveja1 = 6 * qtd
+#         cerveja1 = "Antartica"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja1} no valor de R${valor_cerveja1}")
+#     elif cerveja == 2:
+#         valor_cerveja2 = 6.5 * qtd
+#         cerveja2 = "Skol"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja2} no valor de R${valor_cerveja2}")
+#     elif cerveja == 3:
+#         valor_cerveja3 = 8.2 * qtd
+#         cerveja3 = "Brahma"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja3} no valor de R${valor_cerveja3}")
+#     elif cerveja == 4:
+#         valor_cerveja4 = 8.25 * qtd
+#         cerveja4 = "Sol"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja4} no valor de R${valor_cerveja4}")
+#     elif cerveja == 5:
+#         valor_cerveja5 = 16.8 * qtd
+#         cerveja5 = "Nortenha"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja5} no valor de R${valor_cerveja5}")
+#     elif cerveja == 6: 
+#         valor_cerveja6 = 4.8 * qtd
+#         cerveja6 = "Proibida"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja6} no valor de R${valor_cerveja6}")
+#     elif cerveja == 7:
+#         valor_cerveja7 = 5.90 * qtd
+#         cerveja7 = "Devassa"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja7} no valor de R${valor_cerveja7}")
+#     elif cerveja == 8:
+#         valor_cerveja8 = 9 * qtd
+#         cerveja8 = "Heineken"
+#         print (f"A sua compra é de {qtd} cerveja(s) {cerveja8} no valor de R${valor_cerveja8}")
+#     print("podemos confirmar a sua compra?")
+#     print("sim - confirmar a compra")
+#     print("não - cancelar a compra")
+#     conf = str(input())
+#     if conf == "sim":
+#         print("COMPRA REALIZADA COM SUCESSO")
+#     else:
+#         print("COMPRA CANCELADA")
